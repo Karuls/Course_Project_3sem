@@ -1,0 +1,84 @@
+var uint function MuituplyCounts(uint digit1, uint digit2, uint times){
+var uint final_count;
+final_count = 0;
+while(times > 1)
+[
+final_count = final_count + digit1 * digit2; 
+times = times - 1;
+];
+return final_count;
+};
+
+main
+{
+var uint result_M; 
+result_M = 1 + MuituplyCounts(6,5,3);
+write "MuituplyCounts 6 * 5 (3 Times) = ";
+writeline result_M;
+
+make_F char function ConvertIntToChar(uint a);
+write "Result (86 -> char) : ";
+var char si;
+si = ConvertIntToChar(86 );
+writeline si;
+
+make_F uint function ConvertCharToInt(char a);
+write "Result  (V -> int)  : ";
+var uint temprorary;
+temprorary = ConvertCharToInt('V');
+writeline temprorary;
+
+var string vania;
+vania = "vania";
+var string Andrew;
+Andrew =  "Andrew";
+make_F string function compareStr(string str1, string str2);
+Andrew = compareStr(vania,Andrew);
+writeline Andrew;
+
+var short Alice;
+Alice = (445 + 5555) * 2 + (100 : 2);
+write "short Alice = ";
+writeline Alice;
+
+var uint SHIFT;
+SHIFT = 0x8;
+var uint SHIFT_result1;
+
+SHIFT_result1 = SHIFT/2;
+write "(SHIFT LEFT)  8 << 2 = ";
+writeline SHIFT_result1;
+
+var uint SHIFT_result2;
+SHIFT_result2 = SHIFT\2;
+write "(SHIFT RIGHT) 8 >> 2 = ";
+writeline SHIFT_result2;
+
+make_F uint function WriteHoursNOW(uint a);
+var uint FOR_DATE_FUNC;
+writeline "Dear user TIME now is ...";
+writeline "|Hours| -- |Minutes| -- |Month| -- |  Date  |";
+FOR_DATE_FUNC = WriteHoursNOW(1);
+write"| ";
+write FOR_DATE_FUNC;
+
+make_F uint function WriteMinutesNOW(uint a);
+write"  |    |  ";
+FOR_DATE_FUNC = WriteMinutesNOW(1);
+write FOR_DATE_FUNC;
+
+make_F uint function WriteMonthNOW(uint a);
+
+FOR_DATE_FUNC = WriteMonthNOW(1);
+write"   |    | ";
+write FOR_DATE_FUNC;
+
+make_F uint function WriteDateNOW(uint a);
+write"  | ";
+FOR_DATE_FUNC = WriteDateNOW(1);
+write"   |";
+write FOR_DATE_FUNC;
+write"|";
+
+return 0;
+}

@@ -1,0 +1,16 @@
+FVG-2024.exe -in:C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\in.txt -log:C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\log.txt  -out:C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024ASM\out.asm
+ml /c /coff out.asm
+
+link /subsystem:console /OPT:NOICF /OPT:NOREF out.obj kernel32.lib libucrt.lib "C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\Debug\FVG-2024LIB.lib"
+
+
+
+
+
+
+
+
+
+
+
+

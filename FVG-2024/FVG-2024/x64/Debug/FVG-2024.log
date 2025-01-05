@@ -1,0 +1,35 @@
+﻿  Error.cpp
+  FST.cpp
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(118,16): warning C4267: инициализация: преобразование из "size_t" в "short"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(537,20): warning C4305: аргумент: усечение из "int" в "char"
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(537,20): warning C4309: аргумент: усечение константного значения
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(539,13): warning C4305: аргумент: усечение из "int" в "char"
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(539,13): warning C4309: аргумент: усечение константного значения
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(1294,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(1301,11): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FST.cpp(1640,18): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  FVG-2024.cpp
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FVG-2024.cpp(32,44): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\FVG-2024.cpp(32,74): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  GRB.cpp
+  In.cpp
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\In.cpp(22,13): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\In.cpp(122,21): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  IT.cpp
+  Log.cpp
+  LT.cpp
+  MFST.cpp
+  NotaciaPolska.cpp
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\NotaciaPolska.cpp(77,12): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Out.cpp
+  Parm.cpp
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\Parm.cpp(19,44): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\Parm.cpp(19,26): warning C4267: инициализация: преобразование из "size_t" в "const int"; возможна потеря данных
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\Parm.cpp(20,11): warning C4101: wst: неиспользованная локальная переменная
+  Semantic.cpp
+  Создание кода...
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\GRB.cpp(98): warning C5082: второй аргумент для "va_start" не является последним именованным параметром
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\GRB.cpp(117): warning C5082: второй аргумент для "va_start" не является последним именованным параметром
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\GRB.cpp(108): warning C5082: второй аргумент для "va_start" не является последним именованным параметром
+FVG-2024.obj : error LNK2019: ссылка на неразрешенный внешний символ "void __cdecl CG::Generate(struct LEX::LEX,struct Out::OUT)" (?Generate@CG@@YAXULEX@2@UOUT@Out@@@Z) в функции wmain.
+C:\Users\fedor\OneDrive\Desktop\FVG-2024\FVG-2024\x64\Debug\FVG-2024.exe : fatal error LNK1120: неразрешенных внешних элементов: 1
